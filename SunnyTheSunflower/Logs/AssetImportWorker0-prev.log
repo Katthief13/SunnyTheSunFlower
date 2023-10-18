@@ -15,7 +15,7 @@ C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62100
+58763
 Successfully changed project path to: C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
 C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5644] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 969022332 [EditorId] 969022332 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1844] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 3454454274 [EditorId] 3454454274 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5644] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 969022332 [EditorId] 969022332 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1844] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 3454454274 [EditorId] 3454454274 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1236.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -80,8 +80,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.497473 seconds.
-- Loaded All Assemblies, in  6.133 seconds
+Registered in 0.027754 seconds.
+- Loaded All Assemblies, in  0.392 seconds
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -92,40 +92,40 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 380 ms
+Android Extension - Scanning For ADB Devices 328 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.047 seconds
-Domain Reload Profiling: 7178ms
-	BeginReloadAssembly (3962ms)
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1082ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (343ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (551ms)
-	LoadAllAssembliesAndSetupDomain (1264ms)
-		LoadAssemblies (3961ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1253ms)
-			TypeCache.Refresh (1252ms)
-				TypeCache.ScanAssembly (1037ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1048ms)
+	FinalizeReload (693ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (990ms)
+		SetupLoadedEditorAssemblies (638ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (838ms)
+			InitializePlatformSupportModulesInManaged (502ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -135,8 +135,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jmharper2.WAKETECH.003\SunnyTheSunflower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jmharper2.WAKETECH.003\SunnyTheSunflower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  5.886 seconds
-Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 7.00 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -146,47 +146,47 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
-Domain Reload Profiling: 6395ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (5671ms)
-		LoadAssemblies (5224ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (315ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (498ms)
-			TypeCache.Refresh (476ms)
-				TypeCache.ScanAssembly (433ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (514ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (713ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (496ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
+			InitializePlatformSupportModulesInManaged (64ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (213ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.8 KB). Loaded Objects now: 4469.
-Memory consumption went from 145.9 MB to 145.7 MB.
-Total: 3.544200 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.220900 ms MarkObjects: 2.871900 ms  DeleteObjects: 0.178000 ms)
+Unloading 69 unused Assets / (244.7 KB). Loaded Objects now: 4469.
+Memory consumption went from 145.8 MB to 145.6 MB.
+Total: 3.426500 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.228500 ms MarkObjects: 2.742400 ms  DeleteObjects: 0.189900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -202,226 +202,482 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 46081.115079 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002851 seconds
+  Time since last request: 45048.970226 seconds.
+  path: Assets/Tilemaps
+  artifactKey: Guid(570ce63bb4ee62745a850f97f919f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps using Guid(570ce63bb4ee62745a850f97f919f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646527eea6ae53e5b4370e405dd1f52f') in 0.002711 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.345078 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(1182527fd922a824bb691a21aa315ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(1182527fd922a824bb691a21aa315ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d52ae7ebfa39d33d191f539aaa4edb') in 0.000426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.154288 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47e8aaeb7dcf0b3aa892e493d565b02') in 0.063600 seconds
+  Time since last request: 471.875422 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a490a5f4f7889c2b82113cc5e759ee') in 0.077296 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 85.814951 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05fc1d2d75726d718b3b8bc41fe4d66') in 0.020081 seconds
+  Time since last request: 99.033636 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7ab5fbffd2c281688b3ac69a6de981') in 0.026772 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 47.684396 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad97cdfa58b91230176f8ab449697568') in 0.016572 seconds
+  Time since last request: 5.091701 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2590adc3b64493b4665be71581e50c92') in 0.017466 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 108.173740 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1c0bedf405e719dda630650cbfaef2') in 0.011598 seconds
+  Time since last request: 33.628470 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8af680a1248df64dcf659653b339931') in 0.011678 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 979.761729 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa79316dcd768a3c8598656f5fb30e') in 0.020713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 15.715213 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009c4def4251b41047456cbcad6a540f') in 0.017039 seconds
+  Time since last request: 47.978925 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f15863421f2209e162fb4afa7364f') in 0.031066 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 656.187850 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70a2c3da02369c16fee8ff7f642ac94') in 0.077438 seconds
+  Time since last request: 65.515979 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f89240db367943ab9c97942004e805f') in 0.012085 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 28.716637 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image.png
-  artifactKey: Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image.png using Guid(f5790b15726bc0a4a90e68858a608cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc547fbc71d7b2a44b1ca8f514495f5') in 0.068068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 94.259406 seconds.
-  path: Assets/Pallets/WGP.prefab
-  artifactKey: Guid(8676c31750068c943a60146a0a91f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pallets/WGP.prefab using Guid(8676c31750068c943a60146a0a91f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d298ebc1ceef58c5c7a7353cda57b90') in 0.044937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 192.586772 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
-  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e904b3b6b58d22c52fc05c18ab0dafd') in 0.000488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 87.125283 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_0.asset
-  artifactKey: Guid(5f4524257ad47924887e9f1ac197cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_0.asset using Guid(5f4524257ad47924887e9f1ac197cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec9470c8ed44beaf138e774e6945e9') in 0.017566 seconds
+  Time since last request: 15.202450 seconds.
+  path: Assets/Tilemaps/MicrosoftTeams-image.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/MicrosoftTeams-image.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cbd4d70153a8a67233fc606ce1704a') in 0.021551 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008291 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_3.asset
-  artifactKey: Guid(0e74d58741a08fd46866eea0cb9c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_3.asset using Guid(0e74d58741a08fd46866eea0cb9c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bdb2e5433c5a915d563d22fc8696e0') in 0.021791 seconds
+  Time since last request: 7.504857 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97fa2017a137875a07fb18e1efd10e9') in 0.020460 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_9.asset
-  artifactKey: Guid(657c4b23443879b43b72e0d94ae0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_9.asset using Guid(657c4b23443879b43b72e0d94ae0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f07cad1df742b91cdba67b2f1b4f541') in 0.016482 seconds
+  Time since last request: 10.511574 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4ee073e71bbeeab250a9715965d65e') in 0.018553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.320934 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4b5689111b37b8a6b7d0a2856430cc') in 0.012957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.877984 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3272c2175a789aefa90b76e146bd3516') in 0.017259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.929582 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69f39f0adaada1e10e7036a9d1e95b4') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.247150 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a2ab47903042efaec52ca84ede410') in 0.016538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 273.906741 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901251fe6b17febde9eacff789c00647') in 0.044991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 47.656841 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd363fbdbb3e7c09d76d291f4159248e6') in 0.043767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 89.739828 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab78e08ed5a7c7adf5316ad8be083788') in 0.041813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.565185 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb354da04123521e6e78cec044e627c5') in 0.053546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 8.237449 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648d65e11e86c45112082c3e06e90cc3') in 0.038367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 63.995125 seconds.
+  path: Assets/Tilemaps/WallsGround.png
+  artifactKey: Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround.png using Guid(830e3066c5b91cb489ac71447507b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b02de7ec65c1bc6da2751539aa92d3') in 0.034954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 130.295322 seconds.
+  path: Assets/Tilemaps/WallsGround_0.asset
+  artifactKey: Guid(4c2253e22ff96ee449265f3445f4e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_0.asset using Guid(4c2253e22ff96ee449265f3445f4e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a867fc12cb068aaea3d32bba2f66357') in 0.022165 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_11.asset
-  artifactKey: Guid(041a2a9553920bd4b811051fdb60ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_11.asset using Guid(041a2a9553920bd4b811051fdb60ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b64f4254662f385753476e1371f45e') in 0.020093 seconds
+  Time since last request: 9.501617 seconds.
+  path: Assets/Tilemaps/WallsGround_1.asset
+  artifactKey: Guid(e2ece3e8f43156c459d5cabf3d1cf636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_1.asset using Guid(e2ece3e8f43156c459d5cabf3d1cf636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28359fcb0d92c6b478d84ec4a342627') in 0.013340 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_28.asset
-  artifactKey: Guid(03fc18141ca114940bd9a9316ac746b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_28.asset using Guid(03fc18141ca114940bd9a9316ac746b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31fe3436412fd654ac01283cab0658e') in 0.020139 seconds
+  Time since last request: 5.406072 seconds.
+  path: Assets/Tilemaps/WallsGround_2.asset
+  artifactKey: Guid(4af9a05cae4bae24e84df442545e2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_2.asset using Guid(4af9a05cae4bae24e84df442545e2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3e7f4b33551e9646f027a0074c5b78') in 0.013004 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_13.asset
-  artifactKey: Guid(488f8d30fd8d80e4fa54b4781ed21391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_13.asset using Guid(488f8d30fd8d80e4fa54b4781ed21391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0a154ce022604780cfe366b5509467') in 0.015074 seconds
+  Time since last request: 3.137747 seconds.
+  path: Assets/Tilemaps/WallsGround_3.asset
+  artifactKey: Guid(0bc106b102f1b99469aa14282a8cbb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_3.asset using Guid(0bc106b102f1b99469aa14282a8cbb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734f6a8658056ae8cade5c1223a0b11d') in 0.013334 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_17.asset
-  artifactKey: Guid(c812b94100e88d748ac6355d7484bb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_17.asset using Guid(c812b94100e88d748ac6355d7484bb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6de7a3cd9fec07cd6ab4897eacc80f8') in 0.015846 seconds
+  Time since last request: 2.970488 seconds.
+  path: Assets/Tilemaps/WallsGround_4.asset
+  artifactKey: Guid(af6aa5b234c01ab42bcc40a693ae0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_4.asset using Guid(af6aa5b234c01ab42bcc40a693ae0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292985601cf436e2967b52993fc15572') in 0.013880 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_16.asset
-  artifactKey: Guid(0e20f9f464c03cd4c8c0d5f1c97f5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_16.asset using Guid(0e20f9f464c03cd4c8c0d5f1c97f5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e95310b043158afdbfb91ba0954212b') in 0.016265 seconds
+  Time since last request: 3.133597 seconds.
+  path: Assets/Tilemaps/WallsGround_5.asset
+  artifactKey: Guid(0086fc5d1be1f2c409b53380659a8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_5.asset using Guid(0086fc5d1be1f2c409b53380659a8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc77b77327cf3a364a0ba1cdf91472b2') in 0.013610 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_26.asset
-  artifactKey: Guid(fa45b8f80efa929479cd56d619778ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_26.asset using Guid(fa45b8f80efa929479cd56d619778ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04276ffeb2f2e29e3695f91a387e2547') in 0.016324 seconds
+  Time since last request: 2.374509 seconds.
+  path: Assets/Tilemaps/WallsGround_6.asset
+  artifactKey: Guid(88e22942cab3a7d4aba745597110fd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_6.asset using Guid(88e22942cab3a7d4aba745597110fd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105e35e4997e9432b7aca04eb6804830') in 0.012980 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_25.asset
-  artifactKey: Guid(6f5563d58b5a1e24b957b51012e5c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_25.asset using Guid(6f5563d58b5a1e24b957b51012e5c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff5f23adf2ee53465c560235cc6864') in 0.015414 seconds
+  Time since last request: 2.214806 seconds.
+  path: Assets/Tilemaps/WallsGround_7.asset
+  artifactKey: Guid(7e0127363ce242a4ab1cd02f2061efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_7.asset using Guid(7e0127363ce242a4ab1cd02f2061efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddb18d4cafa97887d1e5a7e66994354') in 0.011784 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_14.asset
-  artifactKey: Guid(dda9cfa5acc93224a81dc17af33f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_14.asset using Guid(dda9cfa5acc93224a81dc17af33f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5fe718c1c0a3204c5972b33ecd86e4') in 0.012932 seconds
+  Time since last request: 4.165931 seconds.
+  path: Assets/Tilemaps/WallsGround_9.asset
+  artifactKey: Guid(006009f0820cc7648a8fe7158e360a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_9.asset using Guid(006009f0820cc7648a8fe7158e360a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7de410f00da6ec1898d5b5f06b8ff8') in 0.011877 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_20.asset
-  artifactKey: Guid(c83055e8006c10c45ba62e19b47e57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_20.asset using Guid(c83055e8006c10c45ba62e19b47e57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd20c5163b5c8150976708d59ab3e08') in 0.012964 seconds
+  Time since last request: 2.613791 seconds.
+  path: Assets/Tilemaps/WallsGround_8.asset
+  artifactKey: Guid(b823c8b4a5e88eb48867b226af0203bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_8.asset using Guid(b823c8b4a5e88eb48867b226af0203bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3681a4ee01d259c85b9529b24d83064a') in 0.015036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.135124 seconds.
+  path: Assets/Tilemaps/WallsGround_10.asset
+  artifactKey: Guid(57519607e4b3f6247b53a44aba4e0b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/WallsGround_10.asset using Guid(57519607e4b3f6247b53a44aba4e0b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399461740d76ac0a864a6594b5ea14b6') in 0.012715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 386.901000 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727cefa813ae1e325c08252f55e1b805') in 0.026353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 54.685642 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc1b9d4e10676f5da21b669c1612ff') in 0.016040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 46.680094 seconds.
+  path: Assets/Tilemaps/Platforms_0.asset
+  artifactKey: Guid(b2f1586caa6ee84468253250f38293c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms_0.asset using Guid(b2f1586caa6ee84468253250f38293c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc833a42b181c7c7c31aa8964101c76e') in 0.010089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.755457 seconds.
+  path: Assets/Tilemaps/Platforms_1.asset
+  artifactKey: Guid(7b24e45c17aca58459c5ce974cc392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms_1.asset using Guid(7b24e45c17aca58459c5ce974cc392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc79fe72222eb33a3008f9b69639fbff') in 0.010186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.380389 seconds.
+  path: Assets/Tilemaps/Platforms_2.asset
+  artifactKey: Guid(1ef407816048c694d86ade6857937e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms_2.asset using Guid(1ef407816048c694d86ade6857937e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f28e72cc4ce42f8951dc6c42d9e7a79') in 0.010229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 47.349796 seconds.
+  path: Assets/Tilemaps/Platforms.png
+  artifactKey: Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms.png using Guid(fda578973172d2641bed4914a92fd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aaac4e91da3f2c4ec77b939b44b394') in 0.023272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tilemaps/Platforms_1.asset
+  artifactKey: Guid(7b24e45c17aca58459c5ce974cc392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms_1.asset using Guid(7b24e45c17aca58459c5ce974cc392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb26bb0c305b61464a823e8770bba4') in 0.016364 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_7.asset
-  artifactKey: Guid(3183d31959e0f134390844ebb558a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_7.asset using Guid(3183d31959e0f134390844ebb558a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249177cef68526a96662d64a0cdb1604') in 0.014149 seconds
+  path: Assets/Tilemaps/Platforms_2.asset
+  artifactKey: Guid(1ef407816048c694d86ade6857937e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Platforms_2.asset using Guid(1ef407816048c694d86ade6857937e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4e34f92b81f074225b47ba999a334') in 0.012713 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_4.asset
-  artifactKey: Guid(a31403466a42ab444b11527b299456e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_4.asset using Guid(a31403466a42ab444b11527b299456e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f7b2907a83c16d855e28a7e398713e') in 0.015434 seconds
+  Time since last request: 281.746551 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png
+  artifactKey: Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Sprite_Mode@4x.png using Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650bbad42baa644849bef32a6ce57b4d') in 0.021092 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_22.asset
-  artifactKey: Guid(47e059d93e2a29043bb60fd10674a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_22.asset using Guid(47e059d93e2a29043bb60fd10674a202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b063b5ce0de7e4ad0e2f4245915b0c') in 0.014609 seconds
+  Time since last request: 0.003130 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8f149861857a8369a9cc9595b5d27d') in 0.029952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004245 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa01750b6a56527edee90179e4dd398') in 0.026878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentBroken.png
+  artifactKey: Guid(fe95aee6edcd44a18bb5f5ff8269e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentBroken.png using Guid(fe95aee6edcd44a18bb5f5ff8269e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800e7e091cb13c9b0fb44e674c2bbfe3') in 0.030715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png
+  artifactKey: Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png using Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f1bb306a4b4272e27b55f6a39a695') in 0.025895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.763003 seconds.
+  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinear.png
+  artifactKey: Guid(70769958773904c02bc91efe3db06047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinear.png using Guid(70769958773904c02bc91efe3db06047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff15d2be190532d18b1d8e5dcd04e4') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers.png
+  artifactKey: Guid(abbc28ff73b72b1438f893d41ca52fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers.png using Guid(abbc28ff73b72b1438f893d41ca52fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec28172f80e47f16ff04abe092a8f1d') in 0.023942 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/MicrosoftTeams-image_27.asset
-  artifactKey: Guid(fd55d6c6e927efb4c9e419e9d9fba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MicrosoftTeams-image_27.asset using Guid(fd55d6c6e927efb4c9e419e9d9fba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b968a6dc18dddc625c82b0715af12957') in 0.012085 seconds
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings.png
+  artifactKey: Guid(7a17912541de348408b722a40b972ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings.png using Guid(7a17912541de348408b722a40b972ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c559c2c9af16c8a92ef9652068d13') in 0.026246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush.png
+  artifactKey: Guid(53439e5dcebe4d74e8358cf7104c4666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush.png using Guid(53439e5dcebe4d74e8358cf7104c4666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749285499fa83d73b18ef0f0ce94c5dd') in 0.024933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@3x.png
+  artifactKey: Guid(af73899d5803d99448134360f184f348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider@3x.png using Guid(af73899d5803d99448134360f184f348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070af8ceb7ecc4f0082f8bd647754d70') in 0.025194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@4x.png
+  artifactKey: Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@4x.png using Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5634e14749c71024a25f0e98cd319713') in 0.022050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@4x.png
+  artifactKey: Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@4x.png using Guid(f082e69f825d0aa44b687e592731c0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765ad862a686af5e0e82d2c22226e715') in 0.022999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small@2x.png
+  artifactKey: Guid(817a8eafcec5342d0a520cb1f23c1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small@2x.png using Guid(817a8eafcec5342d0a520cb1f23c1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce018d79303407c1d833522786dd23') in 0.022910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush.png
+  artifactKey: Guid(9d026c034cfd40746a436496efe2dd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush.png using Guid(9d026c034cfd40746a436496efe2dd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a17a115d86ab37c85e1ab2fe840f50') in 0.024232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider.png
+  artifactKey: Guid(96b029a4248c85a4e8de2aa81fc0b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Slider.png using Guid(96b029a4248c85a4e8de2aa81fc0b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880aedaf5b3e2c72e043d46443a0ae12') in 0.025377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@2x.png
+  artifactKey: Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Slider@2x.png using Guid(6306a4776b130304bba7a139fc1d2bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e37ca1ed9d0376b6f22d701aee725f') in 0.024948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small.png
+  artifactKey: Guid(04d9cdfc54a6a485d83a3d78a3139505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/WarningIcon_Small.png using Guid(04d9cdfc54a6a485d83a3d78a3139505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454165043fab8cb06b64b7fd30939bd9') in 0.026443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@3x.png
+  artifactKey: Guid(8004118ba4145a74e823fedaa37acf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Visibility_Tool@3x.png using Guid(8004118ba4145a74e823fedaa37acf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f81bd6358e1c136569dcb787ad95d2f') in 0.024899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.758343 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@3x.png
+  artifactKey: Guid(3e6e6fbbd946d0541923f45f4eaa2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@3x.png using Guid(3e6e6fbbd946d0541923f45f4eaa2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5a9e695327afc6be35e0bdc755678c') in 0.023934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@4x.png
+  artifactKey: Guid(48464cd53bb3c604f999e7d3f15e8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/Weight_Brush@4x.png using Guid(48464cd53bb3c604f999e7d3f15e8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540f41e6860685013a985f549d6de6b2') in 0.024584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png
+  artifactKey: Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light/Weight_Brush@3x.png using Guid(3279d541bf75c624cbdd7179eb5559a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226f2c68df787e117e59fe450e1c3bdc') in 0.022269 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
