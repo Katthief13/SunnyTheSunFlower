@@ -1,0 +1,407 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32595 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62100
+Successfully changed project path to: C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
+C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14828] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 651060739 [EditorId] 651060739 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14828] Host "[IP] 10.43.30.150 [Port] 0 [Flags] 2 [Guid] 651060739 [EditorId] 651060739 [Version] 1048832 [Id] WindowsEditor(7,SWE0319-18) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1303.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jmharper2.WAKETECH.003/SunnyTheSunflower/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Pro WX 7100 Graphics (ID=0x67c4)
+    Vendor:   ATI
+    VRAM:     8135 MB
+    Driver:   31.0.21018.6011
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.548680 seconds.
+- Loaded All Assemblies, in  6.455 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 353 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 7442ms
+	BeginReloadAssembly (4063ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (377ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (607ms)
+	LoadAllAssembliesAndSetupDomain (1394ms)
+		LoadAssemblies (4062ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1383ms)
+			TypeCache.Refresh (1383ms)
+				TypeCache.ScanAssembly (1148ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (794ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jmharper2.WAKETECH.003\SunnyTheSunflower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jmharper2.WAKETECH.003\SunnyTheSunflower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.828 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 6331ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (5632ms)
+		LoadAssemblies (5173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (486ms)
+				TypeCache.ScanAssembly (440ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4008 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.8 KB). Loaded Objects now: 4469.
+Memory consumption went from 145.9 MB to 145.7 MB.
+Total: 3.474500 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.192100 ms MarkObjects: 2.788200 ms  DeleteObjects: 0.159400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48639.712792 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_0.asset
+  artifactKey: Guid(5f4524257ad47924887e9f1ac197cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_0.asset using Guid(5f4524257ad47924887e9f1ac197cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68e6b8e644e583cf005497041633dd2') in 0.043407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_3.asset
+  artifactKey: Guid(0e74d58741a08fd46866eea0cb9c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_3.asset using Guid(0e74d58741a08fd46866eea0cb9c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa1d5519d3029f57e6e0d8c7f179bc9') in 0.002762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_9.asset
+  artifactKey: Guid(657c4b23443879b43b72e0d94ae0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_9.asset using Guid(657c4b23443879b43b72e0d94ae0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958105c8e40cda84bb0ddff9bf29d096') in 0.002430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_1.asset
+  artifactKey: Guid(345dbf0ba069458479fa290ea0adc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_1.asset using Guid(345dbf0ba069458479fa290ea0adc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7fa3ef5a4e6316f214e25832b6dd01') in 0.002968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_11.asset
+  artifactKey: Guid(041a2a9553920bd4b811051fdb60ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_11.asset using Guid(041a2a9553920bd4b811051fdb60ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7123ca9fec62448d31f9a8401fa29a') in 0.003121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_2.asset
+  artifactKey: Guid(645009d1760780e4bbc9e199bc6759e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_2.asset using Guid(645009d1760780e4bbc9e199bc6759e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391766ec4af591e6e9b67e009077b8c6') in 0.003421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_28.asset
+  artifactKey: Guid(03fc18141ca114940bd9a9316ac746b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_28.asset using Guid(03fc18141ca114940bd9a9316ac746b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d61a3d057ff4d865c17647411576b3') in 0.003307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_30.asset
+  artifactKey: Guid(997d7b70eee61d744be03a90296f9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_30.asset using Guid(997d7b70eee61d744be03a90296f9458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42769d87cf151e0e536d18c778c33ed3') in 0.006940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_13.asset
+  artifactKey: Guid(488f8d30fd8d80e4fa54b4781ed21391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_13.asset using Guid(488f8d30fd8d80e4fa54b4781ed21391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc1e86cf2cf813df3132d30531f8643') in 0.004725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_31.asset
+  artifactKey: Guid(7683492c994628248954cc62d8fe23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_31.asset using Guid(7683492c994628248954cc62d8fe23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a8b4f3938c2fb56719c87d55b92d53') in 0.003554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_24.asset
+  artifactKey: Guid(911e3f271a8efab4ab4b9024a86ffc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_24.asset using Guid(911e3f271a8efab4ab4b9024a86ffc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339004df0a3373a9b78d0f4581b7fe29') in 0.002654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_32.asset
+  artifactKey: Guid(c88e8aa3e9ce4de47b459a9224808f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_32.asset using Guid(c88e8aa3e9ce4de47b459a9224808f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7d0c0960f7f33dc9524e5c959c03e6') in 0.002735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_34.asset
+  artifactKey: Guid(32547431f4b77c240b5cfbb89c50781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_34.asset using Guid(32547431f4b77c240b5cfbb89c50781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a116b793024b25671f901e2973e30') in 0.003591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_21.asset
+  artifactKey: Guid(b7a4d19500d32b144972759af730f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_21.asset using Guid(b7a4d19500d32b144972759af730f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bc3acf2b949c0e225a3e0252ed735f') in 0.003317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_16.asset
+  artifactKey: Guid(0e20f9f464c03cd4c8c0d5f1c97f5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_16.asset using Guid(0e20f9f464c03cd4c8c0d5f1c97f5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a34ddfb6f7b503487fee7ac34244d37') in 0.002683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_18.asset
+  artifactKey: Guid(925df563c90a2a445853f04b4772a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_18.asset using Guid(925df563c90a2a445853f04b4772a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76043bae6d035437fc577691f059e58c') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_6.asset
+  artifactKey: Guid(3fd3621187c8e504a9a7f891633a98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_6.asset using Guid(3fd3621187c8e504a9a7f891633a98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d5905df2bf9f6e1c6c7b2d3fe5da35') in 0.004474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_23.asset
+  artifactKey: Guid(659976c84a2b0f344b782ae091bf49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_23.asset using Guid(659976c84a2b0f344b782ae091bf49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818d5916cd19905ee90ff01bae6cdb9f') in 0.003531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_14.asset
+  artifactKey: Guid(dda9cfa5acc93224a81dc17af33f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_14.asset using Guid(dda9cfa5acc93224a81dc17af33f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622a99f5eeca62ae990a97e9f937a7d0') in 0.003299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_15.asset
+  artifactKey: Guid(a0a0a4115d2900948a708e447996fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_15.asset using Guid(a0a0a4115d2900948a708e447996fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad3a932fb8ca0d91343a772fd411d63') in 0.002970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_5.asset
+  artifactKey: Guid(3476871b8a6161e48a218128e7fb136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_5.asset using Guid(3476871b8a6161e48a218128e7fb136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e62d551a3a25b66d3b6ccd377691ba0') in 0.002890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_19.asset
+  artifactKey: Guid(47bcb72093f0288479b067913f2612f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_19.asset using Guid(47bcb72093f0288479b067913f2612f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc26bd9df1c596a3896aceb53357bd70') in 0.002162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_12.asset
+  artifactKey: Guid(64039183ccae84f4ba196a19719ea71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_12.asset using Guid(64039183ccae84f4ba196a19719ea71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89e6346fa831e4ec9c32aad3f42d3db') in 0.002323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_8.asset
+  artifactKey: Guid(bdbd56bffabe96c4ca1d0a2455d34064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_8.asset using Guid(bdbd56bffabe96c4ca1d0a2455d34064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cc82f18880934b4423f1fb4865b5d7') in 0.002016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/MicrosoftTeams-image_29.asset
+  artifactKey: Guid(b5603fab6e0d4ee40bee0662f2e89df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MicrosoftTeams-image_29.asset using Guid(b5603fab6e0d4ee40bee0662f2e89df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68473bea5bbc583ad564cd4156910c49') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
