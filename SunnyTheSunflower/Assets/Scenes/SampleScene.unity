@@ -239,7 +239,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1419103531
+  m_SortingLayerID: -277835797
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -2671,6 +2671,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1419103531
       objectReference: {fileID: 0}
+    - target: {fileID: 7861675195934114276, guid: 2cdaabf2679d6aa4ea0824d3492deafe, type: 3}
+      propertyPath: projectileOffset.x
+      value: 0.35
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2783,10 +2787,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 1251882212}
   - {fileID: 3614843483752659533}
   - {fileID: 566760930}
+  - {fileID: 440777303}
   - {fileID: 2072129125}
   - {fileID: 310374846}
-  - {fileID: 440777303}
-  - {fileID: 1251882212}
   - {fileID: 1153619547}
