@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
 
     int health = 10;
-    int ammo = 10;
+    //int ammo = 10;
 
     public float speed = 5f;
     public float jumpPower = 5f;
@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public GameObject projectile;
     public GameObject projectileL;
     public Vector2 projectileOffset = new Vector2(0f, 0f);
+
+    public AudioSource jumpSFX;
 
     Animator animator;
 
@@ -36,6 +38,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
+            jumpSFX.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
