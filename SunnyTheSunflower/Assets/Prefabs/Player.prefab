@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1285555143462451025}
   - component: {fileID: 7861675195934114276}
   - component: {fileID: 8140732373745204191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1419103531
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -386684427, guid: b974f199e5a81f24c975339b6955a589, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -177,6 +177,7 @@ MonoBehaviour:
   projectile: {fileID: 3181479855155979505, guid: 60e8a8deb4fe0fd40a6a5b2d77a7f0fe, type: 3}
   projectileL: {fileID: 3181479855155979505, guid: c766ed2a4da500745b4b548e50941ded, type: 3}
   projectileOffset: {x: 0.25, y: 0.45}
+  jumpSFX: {fileID: 0}
   inputDirection: {x: 0, y: 0}
 --- !u!95 &8140732373745204191
 Animator:

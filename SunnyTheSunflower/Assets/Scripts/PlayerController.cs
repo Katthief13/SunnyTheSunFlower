@@ -6,14 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    int health = 10;
-    //int ammo = 10;
+    public int health = 10;
+    public int ammo = 10;
 
     public float speed = 5f;
     public float jumpPower = 5f;
 
     public GameObject projectile;
-    public GameObject projectileL;
     public Vector2 projectileOffset = new Vector2(0f, 0f);
 
     public AudioSource jumpSFX;
@@ -23,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 inputDirection;
 
     private bool isJumping = false;
+    private bool facingLeft = false;
 
     void Start()
     {
@@ -41,10 +41,10 @@ public class PlayerController : MonoBehaviour
             jumpSFX.Play();
         }
 
+        //Shooting
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(projectile, (Vector2)transform.position + projectileOffset, Quaternion.identity);
-            animator.SetTrigger("Shoot");
+            StartCoroutine(ShootProjectile(projectile));
         }
     }
     void FixedUpdate()
@@ -67,10 +67,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             animator.SetBool("Left", true);
+            facingLeft = true;
         }
         else if (Input.GetKey(KeyCode.D))
         {
             animator.SetBool("Left", false);
+            facingLeft = false;
         }
     }
 
@@ -84,6 +86,27 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             health--;
+        }
+    }
+
+    public IEnumerator ShootProjectile(GameObject projectile)
+    {
+        if (ammo > 0)
+        {
+            ammo--;
+
+            if (facingLeft)
+            {
+                Instantiate(projectile, (Vector2)transform.position + projectileOffset, Quaternion.Euler(0, 0, 180));
+                animator.SetTrigger("Shoot");
+                yield return null;
+            }
+            else
+            {
+                Instantiate(projectile, (Vector2)transform.position + projectileOffset, Quaternion.identity);
+                animator.SetTrigger("Shoot");
+                yield return null;
+            }
         }
     }
 

@@ -5,7 +5,12 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float projectileSpeed = 5f;
+    public float lifetime = 3f;
 
+    private void Start()
+    {
+        Destroy(gameObject, lifetime);
+    }
     void Update()
     {
         transform.Translate(Vector2.right * projectileSpeed * Time.deltaTime);
